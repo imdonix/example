@@ -1,5 +1,9 @@
+#include "cry.c"
+
 int main()
 {
-    int a = 2;
+    int b = 0;
+    cry(&b);
+    int a = b;
     return a;
 }
