@@ -1,5 +1,7 @@
+#include "bit.c"
+
 int main()
 {
-    int a = 2;
+    int a = bit(2);
     return a;
 }
